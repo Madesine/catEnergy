@@ -4,6 +4,7 @@ const glob = require("glob");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
